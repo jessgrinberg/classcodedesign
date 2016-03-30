@@ -1,0 +1,39 @@
+# Site settings
+title: ClassCodeDesign - A blog about web Deveopment and Design
+email: coolwebconfs@gmail.com
+description: A blog about web Deveopment and Design.
+url: "http://classcodedesign.come" # the base hostname & protocol for your site
+twitter_username: jessgrinberg
+github_username: jessgrinberg
+paginate: 3
+
+# Gems
+gems: [jekyll-paginate]
+
+# Build settings
+markdown: kramdown
+permalink: /:title
+
+#Default Settings
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      author: Jessica Grinberg
+      layout: "post"
+      category: conferences
+      comments: true
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "page"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "drafts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
