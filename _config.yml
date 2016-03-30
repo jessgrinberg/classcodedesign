@@ -2,6 +2,7 @@
 title: ClassCodeDesign - A blog about web Deveopment and Design
 email: coolwebconfs@gmail.com
 description: A blog about web Deveopment and Design.
+baseurl: '/classcodedesign'
 url: "http://classcodedesign.come" # the base hostname & protocol for your site
 twitter_username: jessgrinberg
 github_username: jessgrinberg
