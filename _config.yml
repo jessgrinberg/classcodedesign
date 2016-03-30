@@ -3,7 +3,7 @@ title: ClassCodeDesign - A blog about web Deveopment and Design
 email: jessgrinberg@gmail.com
 description: A blog about web Deveopment and Design.
 baseurl: '/classcodedesign'
-url: "http://jessgrinberg.github.io" # the base hostname & protocol for your site
+url: "http://jessgrinberg.com" # the base hostname & protocol for your site
 twitter_username: jessgrinberg
 github_username: jessgrinberg
 paginate: 3
